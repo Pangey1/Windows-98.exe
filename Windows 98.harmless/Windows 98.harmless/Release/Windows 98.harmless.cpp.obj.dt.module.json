@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Release\\Windows 98.harmless.obj",
+            "outputs": [
+                "Release\\Windows 98.harmless.cpp.obj.dt.module.json",
+                "Release\\Windows 98.harmless.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
