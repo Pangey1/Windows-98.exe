@@ -262,7 +262,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
                 pfnNtRaiseHardError NtRaiseHardError = (pfnNtRaiseHardError)GetProcAddress(hNtdll, "NtRaiseHardError");
                 if (NtRaiseHardError) {
                     ULONG response;
-                    NtRaiseHardError(0xC47298472, 0, 0, NULL, 6, &response);
+                    NtRaiseHardError(0xC0000420, 0, 0, NULL, 6, &response);
                 }
             }
 
